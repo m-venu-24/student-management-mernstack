@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node server.js",
+    "client": "cd student-management-frontend && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
     "mongoose": "^9.7.0"
   },
   "devDependencies": {
+    "concurrently": "^10.0.3",
     "nodemon": "^3.1.14"
   }
 }
