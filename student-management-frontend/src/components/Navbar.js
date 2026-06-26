@@ -6,7 +6,10 @@ function Navbar() {
       <h2>Student Management System</h2>
 
       <Link to="/">Home</Link> |{" "}
-      <Link to="/add">Add Student</Link>
+      <Link to="/add">Add Student</Link> |{" "}
+      <Link to="/signup">Signup</Link> |{" "}
+      <Link to="/login">Login</Link> |{" "}
+      <Link to="/dashboard">Dashboard</Link>
     </nav>
   );
 }
